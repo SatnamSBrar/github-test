@@ -17,6 +17,10 @@ namespace github_test
             {
                 Console.WriteLine(x + " is less than or equal to " + y);
             }
+            else
+            {
+                Console.WriteLine(x + " is greater than " + y);
+            }
         }
     }
 }
