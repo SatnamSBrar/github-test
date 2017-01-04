@@ -11,6 +11,12 @@ namespace github_test
         static void Main(string[] args)
         {
             int x = 7;
+            int y = 17;
+
+            if (x <= y)
+            {
+                Console.WriteLine(x + " is less than or equal to " + y);
+            }
         }
     }
 }
